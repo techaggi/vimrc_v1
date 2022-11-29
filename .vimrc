@@ -15,6 +15,10 @@ inoremap jj <ESC>
 
 set clipboard+=unnamedplus
 
+"optisch insert mode erkennen
+ 
+autocmd InsertEnter * set cul
+autocmd InsertLeave * set nocul
 
 " remap split navigation to just control
 noremap <C-h> <C-w>h
