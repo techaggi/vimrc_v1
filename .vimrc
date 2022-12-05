@@ -12,6 +12,11 @@ cabbrev Q q!
 
 inoremap jj <ESC>
 
+"set tab and shiftkey
+set expandtab
+set tabstop=2
+set shiftwidth=4
+
 
 set clipboard+=unnamedplus
 
