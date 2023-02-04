@@ -2,7 +2,7 @@ set relativenumber
 set ignorecase
 syntax on 
 colorscheme monokai
-set clipboard^=unnamed,unnamedplus
+set clipboard=unnamedplus
 set splitbelow splitright
 set noswapfile 
 set hlsearch 
@@ -14,11 +14,8 @@ inoremap jj <ESC>
 
 "set tab and shiftkey
 set expandtab
-set tabstop=2
+set tabstop=4
 set shiftwidth=4
-
-
-set clipboard+=unnamedplus
 
 "optisch insert mode erkennen
  
